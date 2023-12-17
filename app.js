@@ -14,4 +14,5 @@ $(document).on("change", "input[type=checkbox]", function () {
         $(this).parent().css("color", "#000");
     }
     console.log("追加した部分2")
+    console.log("追加した部分3")
 });
