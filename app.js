@@ -3,6 +3,7 @@ $("#addTodo").click(function () {
     $("#todoList").append("<li><input type='checkbox'>" + inputTodo + "</li>");
   
     $("input").val("");
+    console.log("追加した部分")
 });
   
 $(document).on("change", "input[type=checkbox]", function () {
